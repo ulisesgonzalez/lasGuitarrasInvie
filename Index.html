@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Invie- tu mejor opcion!!</title>
+		<link rel="stylesheet" href="css/invie.css" />
+		<link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+	</head>
+	<body>
+		<section id="portada" class="portada"> <!-- portada -->
+			<header id="header" class="header contenedor"> <!-- header -->
+			
+			<figure class="logotipo"><!-- logotipo --> 
+				<img src="imagenes/invie.png" width="186" height="60" alt="Invie logo">
+			</figure>
+			<nav class="menu"><!-- menu -->
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="index.html#guitarras">Guitarras</a>
+					</li>
+					<li>
+						<a href="precios.html">Precios</a>
+					</li>
+				</ul>
+			</nav>
+			</header>
+			<div class="contenedor">
+				<h1 class="titulo">Guitarras <span>invi</span>sibles</h1> <!-- titulo -->
+				<h3 class="title-a">Sè la estrella de rock que simpre quisiste ser</h3> <!--Resumen  -->
+				<button class="button" href="#guitarras">Conoce màs..</button> <!-- Boton -->
+			</div>	
+		</section>
+		<section id="guitarras" class="guitarras contenedor"> <!-- guitarras -->
+			<h2>Nuestras guitarras</h2> <!--Titulo-->
+			<article class="guitarra" > <!--guitarra 1 -->
+				<img src="imagenes/invie-acustica.png" alt="Guitarra acustica" width="200" class="derecha">
+				<div class="contenedor-guitarra-a">
+					<h3 class="title-b">Invie acustica</h3>
+					<ol>
+						<li>Estilo Vintage</li>
+						<li>Madera pura</li>
+						<li>Incluye estuche invisible</li>
+					</ol>
+				</div>	
+			</article>
+			<article class="guitarra b"> <!--guitarra 2 -->
+				<img src="imagenes/invie-classic.png" alt="Guitarra Clasica" width="300" class="izquierda">
+				<div class="contenedor-guitarra-b">
+					<h3 class="title-b">Invie Classic</h3>
+					<ol>
+						<li>Estilo Clasico</li>
+						<li>Liviana</li>
+						<li>Inicia tu camino como Rockstar</li>
+					</ol>
+				</div>	
+			</article>	
+		</section>
+		<footer class="footer">
+			<div class="contenedor">
+				<div class="contacto">
+					<img src="imagenes/invie-white.png" alt="logotipo blanco">
+					<a href="tel:+523336557702"><strong>Telefono </strong><spa>3336557711</spa></a>
+					<a href="mailto:ulises.gonzalezc@hotmail.com"><strong>E-mail</strong><spa>contacto@hotmail</spa></a>
+				</div>
+				<form class="formulario">
+					<div class="col1">
+						<label for="Nombre">Nombre</label>
+						<input type="text" required id="nombre">
+						<label for="Email"> E-mail </label>
+						<input type="email" required id="email">
+						<div>
+							<label for="mujer">
+							<input type="radio" checked id="mujer" name="sexo" value="mujer">Mujer
+							</label>
+							<label for="hombre">
+							<input type="radio" id="hombre" name="sexo" value="hombre"> Hombre
+							</label>	
+						</div>
+						<div class="intereses">
+							<label for="cotizacion">
+								<input type="checkbox"  checked id="cotizacion" name="intereses" value="cotizacion">Cotizaciòn
+							</label>
+							<label for="reclamos">
+								<input type="checkbox" id="reclamos" name="reclamos" value="reclamos">Reclamos
+							</label>
+							<label for="comentarios">
+								<input type="checkbox" id="comentarios" name="comentarios" value="comentarios">Comentarios 
+							</label>
+							<label for="otros">
+								<input type="checkbox" id="otros" name="otros" value="otros">Otros
+							</label>
+						</div>
+					</div>
+					<div class="col2">
+						<label for="comentarios">Comentarios</label>
+						<textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+						<input type="submit" value="Enviar" class="button">
+					</div>
+				</form>
+			</div>
+		</footer>
+	</body>
+</html>
